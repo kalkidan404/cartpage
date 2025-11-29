@@ -1,0 +1,52 @@
+.header{
+    width: 100vw;
+    height:10vw;
+    background-color:#E3F2FD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.royal{
+    font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+color: burlywood;
+
+}
+.cart{
+    width: 1.5rem;
+    height: 1.5rem;
+padding-bottom: 2.5rem;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
+
+    
+}
+body{
+    background-color: #D9D9D9;
+}
+.images{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;        /* enables horizontal scroll */
+  padding-bottom:0.25rem;
+  scrollbar-width: thin;
+}
+.itemn{
+    min-width: 120px;
+    width: 24vw;
+    height: 50vh;
+}
+.buy{
+    background-color:#6b7280;
+    border-radius: 0.25rem;
+}
+.buy:hover{
+    background-color:#3a7afe;
+}
